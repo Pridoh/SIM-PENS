@@ -67,6 +67,7 @@ void tambahMahasiswa(void) {
     angkatan[jumlahMahasiswa] = angkatanBaru;
     ipMhs[jumlahMahasiswa] = 0.0f;       /* diisi nanti oleh hitungIP() */
     jumlahMahasiswa++;
+    tambahAkun(nimBaru, nimBaru, "mahasiswa");
 
     printf("Data mahasiswa berhasil ditambahkan.\n");
 }
